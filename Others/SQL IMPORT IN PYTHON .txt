@@ -1,0 +1,43 @@
+# 1. ORACLE SQL IMPORT IN PYTHON 
+
+pip install cx_Oracle
+
+import cx_Oracle
+
+# Replace 'hr', 'Admin260', 'localhost', '1521', and 'XEPDB1' with your Oracle database details
+connection = cx_Oracle.connect(
+    user="hr",
+    password="Admin260",
+    dsn="localhost:1521/XEPDB1"
+)
+
+# Now you can use this connection to interact with the Oracle database
+
+# Close the connection when done
+connection.close()
+
+
+# 2. SQL SERVER IMPORT IN PYTHON 
+
+pip install mssql-connector-python
+pip install pyodbc
+pip install sqlalchemy
+
+
+from sqlalchemy import create_engine
+
+# Replace 'WIN11PKS' with your server name and 'HOUSEOFCONCEPT' with your database name
+engine = create_engine('mssql+pyodbc://@WIN11PKS/HOUSEOFCONCEPT?trusted_connection=yes&driver=ODBC+Driver+17+for+SQL+Server')
+
+# Now you can use this engine to interact with the database
+print(engine)
+
+# 3. MYSQL SERVER IMPORT IN PYTHON 
+
+pip install mysql-connector-python
+
+import mysql.connector
+praveendb= mysql.connector.connect(host="localhost" , user="root" , password= "Admin260" , port= 3306 )
+
+print(praveendb)
+

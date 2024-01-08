@@ -1,0 +1,23 @@
+Step 1
+ 	mkdir python_fundamentals
+
+Step 2
+	python3 -m venv pksenv
+
+Step 3
+	source pksenv/bin/activate
+
+Step 4
+	pip install jupyter
+
+Step 5
+	   jupyter-notebook --ip 0.0.0.0
+
+OR
+	python3 -m notebook --ip 0.0.0.0
+
+Step 6
+	Copy URL and Paste in Browser
+	
+		
+
