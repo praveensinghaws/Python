@@ -1,1 +1,38 @@
 .ipynb_checkpoints/
+# Ignore pycache, pyc, and __pycache__ directories
+__pycache__/
+*.pyc
+
+# Ignore environment-specific files
+.env
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore system-specific files
+*.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+venv/
+
+# Ignore dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
