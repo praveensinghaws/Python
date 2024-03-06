@@ -1,0 +1,5 @@
+Hello, Python!y name is Praveen Kumar Singh!
+This Lecture is all about file handling!
+Happy Learning!
+Appending New Line : Hello World!
+Appending New Line : Hello World!

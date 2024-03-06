@@ -1,0 +1,2 @@
+New Content using w+ mode
+Appending this line. using a+ Mode
