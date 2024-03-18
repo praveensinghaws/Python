@@ -36,3 +36,5 @@ __pycache__/
 Pipfile
 Pipfile.lock
 
+# Ignore Parquet files
+*.parquet
